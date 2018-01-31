@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <PlainImage class="example" />
+    <BasicLink class="example" />
     <PlainImageWithCustomBlur class="example"/>
     <Background class="example" />
     <RoundedImage class="example"/>
     <Thumbnails class="example"/>
+    <ThumbnailsWithFallback class="example"/>
     <ThumbnailsWithFallback class="example"/>
   </div>
 </template>
@@ -13,6 +15,7 @@
 import Thumbnails from '@/components/Thumbnails'
 import ThumbnailsWithFallback from '@/components/thumbnailsWithFallback'
 import PlainImage from '@/components/PlainImage'
+import BasicLink from '@/components/BasicLink'
 import PlainImageWithCustomBlur from '@/components/PlainImageWithCustomBlur'
 import Background from '@/components/Background'
 import RoundedImage from '@/components/RoundedImage'
@@ -22,6 +25,7 @@ export default {
 
   components: {
     RoundedImage,
+    BasicLink,
     PlainImage,
     Background,
     Thumbnails,
