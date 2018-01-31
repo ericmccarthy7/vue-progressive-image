@@ -1,7 +1,7 @@
 <template>
 	<div ref="image" class="progressive-image">
 		<canvas v-if="!shouldImageRender" width="1" height="1" class="canvas" ref="canvas"></canvas>
-		<a :href="url" ><div class="progressive-image-wrapper" :style="wrapperStyle">
+		<router-link :to="url" ><div class="progressive-image-wrapper" :style="wrapperStyle">
 			<transition
 				enter-class="progressive-image-enter"
 				enter-active-class="progressive-image-before-enter">
@@ -26,7 +26,7 @@
 			<div class="middle">
 				<div class="text">{{ alt }}</div>
 			</div>
-		</div></a>
+		</div></router-link>
 	</div>
 </template>
 
