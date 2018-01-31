@@ -55,7 +55,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style scoped lang="css">
 .progressive-image {
 	position: relative;
 	overflow: hidden;
