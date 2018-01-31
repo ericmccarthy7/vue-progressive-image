@@ -29,14 +29,11 @@
 
 <script>
   import image from '../mixin/image'
-
   export default {
     name: 'progressive-img',
-
     mixins: [
       image
     ],
-
     computed: {
       placeholderStyle () {
         return {
@@ -53,14 +50,12 @@
     position: relative;
     overflow: hidden;
   }
-
   .canvas {
     visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
   }
-
   .progressive-image-main {
     position: absolute;
     top: 0px;
@@ -73,15 +68,12 @@
     transition-timing-function: ease-out;
     transform: translateZ(0);
   }
-
   .progressive-image-before-enter {
     opacity: 1;
   }
-
   .progressive-image-enter {
     opacity: 0;
   }
-
   .progressive-image-placeholder {
     position: absolute;
     top: 0px;
@@ -97,19 +89,16 @@
     height: 100%;
     background-size: cover;
   }
-
   .progressive-image-placeholder-out {
     transition-duration: inherit;
     transition-property: all;
     transition-timing-function: ease-out;
-
     /**
      * the transitioon delay needs to be longer than the
      * .progressive-image-main transition-duration, otherwise it will flick
      * because there won't be a background.
     */
     transition-delay: 0.4s;
-
     opacity: 0;
   }
 </style>

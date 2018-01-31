@@ -1,4 +1,5 @@
 import image from './component/image.vue'
+import imagelink from './component/image-link.vue'
 import background from './component/background.vue'
 
 /**
@@ -21,6 +22,7 @@ const mergeOptions = function (component, options = {}) {
  */
 const install = function (Vue, options = {}) {
   Vue.component('progressive-img', mergeOptions(image, options))
+  Vue.component('progressive-img-link', mergeOptions(imagelink, options))
   Vue.component('progressive-background', mergeOptions(background, options))
 }
 
