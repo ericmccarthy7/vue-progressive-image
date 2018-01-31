@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 
-import VueProgressiveImage from 'vue-progressive-image-link@2.5.0'
+import VueProgressiveImage from 'vue-progressive-image-link'
 
 Vue.config.productionTip = false
 
