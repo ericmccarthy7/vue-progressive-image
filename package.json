@@ -1,8 +1,8 @@
 {
-  "name": "vue-progressive-image",
+  "name": "vue-progressive-image-link",
   "version": "2.5.0",
   "description": "Vue progressive image loading plugin",
-  "main": "dist/vue-progressive-image.js",
+  "main": "dist/vue-progressive-image-link.js",
   "files": [
     "dist"
   ],
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MatteoGabriele/vue-progressive-image"
+    "url": "https://github.com/ericmccarthy7/vue-progressive-image-link.git"
   },
   "keywords": [
     "progressive",
@@ -32,9 +32,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MatteoGabriele/vue-progressive-image/issues"
+    "url": "https://github.com/ericmccarthy7/vue-progressive-image-link/issues"
   },
-  "homepage": "https://github.com/MatteoGabriele/vue-progressive-image#readme",
+  "homepage": "https://github.com/ericmccarthy7/vue-progressive-image-link#readme",
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",

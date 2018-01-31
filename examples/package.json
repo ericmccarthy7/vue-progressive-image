@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "vue": "^2.4.2",
+    "vue-progressive-image": "https://github.com/ericmccarthy7/vue-progressive-image-link.git",
     "vue-router": "^2.7.0"
   },
   "devDependencies": {
